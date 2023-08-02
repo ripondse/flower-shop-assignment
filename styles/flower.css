@@ -1,9 +1,45 @@
-body{
+*{
     font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
-p{
-color: #272727;
-font-size: 80px;
-font-weight: 800;
+.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:50px 100px 0px 100px ;
+    background: rgba(229, 84, 115, 0.10);
+   height: 650px;
+    
+}
+.header-text{
+    text-align: left;
+  
+}
+.header-img{
+       width: 635px;
+    height: 650px;
 
+}
+.header-title{
+    font-size: 60px;
+    font-weight: 800px;
+    margin-bottom: 35px;
+    color: #272727;
+
+}
+.btn{
+border-radius: 8px;
+background: #E55473;
+border: none;
+color: #FFF;
+font-size: 20px;
+padding: 20px 40px;
+
+}
+.header-container p{
+color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 35px;
 }
