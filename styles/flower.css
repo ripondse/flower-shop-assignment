@@ -1,9 +1,9 @@
-*{
+* {
     font-family: 'Open Sans', sans-serif;
     margin: 0px;
     padding: 0px;
 }
-.header-container{
+.header-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,23 +12,23 @@
    height: 650px;
     
 }
-.header-text{
+.header-text {
     text-align: left;
   
 }
-.header-img{
+.header-img {
        width: 635px;
     height: 650px;
 
 }
-.header-title{
+.header-title {
     font-size: 60px;
     font-weight: 800px;
     margin-bottom: 35px;
     color: #272727;
 
 }
-.btn{
+.btn {
 border-radius: 8px;
 background: #E55473;
 border: none;
@@ -37,58 +37,58 @@ font-size: 20px;
 padding: 20px 40px;
 
 }
-.header-container p{
+.header-container p {
 color: rgba(39, 39, 39, 0.60);
 font-size: 18px;
 font-weight: 400;
 margin-bottom: 35px;
 }
-.flower-item{
-    border: 1px solid red;
+.flower-item {
+    
     margin-top: 160px;
     padding-left: 100px;
     padding-right: 100px;
 }
-.flower-item-text{
+.flower-item-text {
     text-align: center;
 }
-.flower-item-title{
+.flower-item-title {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 20px;
 }
-.flower-item-details{
+.flower-item-details {
     color: rgba(39, 39, 39, 0.60);
 font-size: 18px;
 font-weight: 400;
 margin-bottom: 40px;
 }
-.flower-img-item{
+.flower-img-item {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     gap: 25px;
 }
-.img-name{
+.img-name {
     text-align: center;
     font-size: 24px;
     font-weight: 700;
     margin-top: 25px;
 }
-.img-1{
+.img-1 {
     border-radius: 300px 300px 0px 0px;
 background: rgba(167, 33, 98, 0.15);
 padding: 100px 65px 0px 65px ;
 
 }
-.img-2{
+.img-2 {
     border-radius: 300px 300px 0px 0px;
 background: rgba(5, 151, 160, 0.15);
 padding: 117px 37px 51px;
     
 }
-.img-3{
+.img-3 {
     border-radius: 300px 300px 0px 0px;
 background: rgba(71, 125, 17, 0.15);
 padding: 67px 65px 0px;
@@ -96,8 +96,8 @@ padding: 67px 65px 0px;
 }
 /* icon-item */
 
-.icon-container{
-    border: 1px solid black;
+.icon-container {
+   
     display: flex;
     justify-content: space-around;
      border-radius: 8px;
@@ -105,22 +105,23 @@ background: rgba(39, 39, 39, 0.05);
 margin: 120px 100px 0px;
 padding: 85px 0px;
 }
-.icon-title{
+.icon-title {
     color: rgba(39, 39, 39, 0.80);
 text-align: center;
 font-size: 24px;
 font-style: normal;
 font-weight: 600;
 }
-.icon-details{
+.icon-details {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
 }
-.hot-deal{
-    border: 1px solid green;
+/* hot deal section */
+.hot-deal {
+    
     margin-top: 120px;
     display: flex;
     justify-content: center;
@@ -130,24 +131,115 @@ font-weight: 600;
 background: rgba(229, 84, 115, 0.05);
 padding: 80px 0px;
 }
-.hot-title{
+.hot-title {
     color: #272727;
 font-size: 40px;
 font-weight: 800;
 margin-bottom: 20px;
 
 }
-.off-color{
+.off-color {
 color: #E55473;
 font-size: 40px;
 font-weight: 800;
     
 }
-.hot-text-details{
+.hot-text-details {
 color: rgba(39, 39, 39, 0.60);
 text-align: center;
 font-size: 18px;
 font-weight: 400;
 margin-bottom: 25px;
 }
+/* instagram */
+.instagram {
+    margin: 120px 100px 0px 100px;
+   
+}
+.instagram-text {
+    text-align: center;
+}
+.insta-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 20px;
+}
+.insta-text-detail {
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 45px;
+}
+.insta-flower {
+   
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+.latest-deals {
+    margin: 125px 100px;
+height: 449px;
+border-radius: 8px;
+background: url("../images/Rectangle\ 9.png");
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.latest-deals-text {
+    text-align: center;
+}
+.deals-title {
+    color: #272727;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 15px;
+}
+.deals-text-detail {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+#eamil {
+    height: 64px;
+    width: 700px;
+    border-radius: 8px;
+    background-color: #FFF;
+    border: none;
+}
+label {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+#email::placeholder {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400px;
+    padding: 22px 0px 22px 22px;
+}
+footer {
+    text-align: center;
+    padding: 128px 500px;
+    background-color: black;
+}
+.footer-title {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.footer-text-details {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
+
 
